@@ -1,1 +1,4 @@
-Doing Advent of Code 2023 in **Mojo**
+Repository for solutions of advent of code.
+
+-   2021: Python and C++
+-   2023: Mojo
