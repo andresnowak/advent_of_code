@@ -21,10 +21,7 @@ fn main() raises:
         var start_flag = False
         var winning_numbers = DynamicVector[Int]()
         var games = DynamicVector[Int](number_of_games)
-        games.resize(number_of_games)
-        # set all values to 1
-        for i in range(len(games)):
-            games[i] = 1
+        games.resize(number_of_games, 1)
 
         var result = 0
         var result_game = 0
