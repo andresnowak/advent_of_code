@@ -4,6 +4,7 @@ from math import min
 
 fn main() raises:
     with open("input.txt", "r") as f:
+        # Newline at the end of input file is required.
         let file = f.read()
 
         var count = 0

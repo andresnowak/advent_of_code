@@ -26,6 +26,7 @@ struct seedRanges(CollectionElement):
 
 
 fn main() raises:
+    # Newline at the end of input file is required.
     with open("input.txt", "r") as f:
         let file = f.read()
 
