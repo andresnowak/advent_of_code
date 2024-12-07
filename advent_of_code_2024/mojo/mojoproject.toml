@@ -1,0 +1,13 @@
+[project]
+authors = []
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = ""
+name = ""
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+
+[dependencies]
+max = ">=24.5.0,<25"
