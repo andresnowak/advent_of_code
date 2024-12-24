@@ -45,6 +45,8 @@ find_muls_part_2 :: proc(content: string) -> int {
         for j in regex.match(re, content[idx2:end]) {
             if mul_enabled {
                 total += strconv.atoi(j.groups[1]) * strconv.atoi(j.groups[2])
+            } else {
+                break
             }
             idx2 += j.pos[0][1]
         }
